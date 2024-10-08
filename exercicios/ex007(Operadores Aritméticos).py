@@ -1,8 +1,9 @@
 n1 = float(input('Digite sua media no primeiro trimestre'))
 n2 = float(input('Digite sua media no segundo trimestre'))
+n3 = float(input('Digite sua media no segundo trimestre'))
 
-resultado = (n1 + n2) / 2
-
+#Realizar primeiro a soma entre ()
+resultado = (n1 + n2 + n3) / 2
 if resultado >= 6:
     print('Aprovado')
 elif resultado <= 5:
