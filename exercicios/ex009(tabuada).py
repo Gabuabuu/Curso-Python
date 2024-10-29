@@ -1,5 +1,6 @@
-multiplicador = int(input('Qual tabuada deseja ver? '))
+multiplicador = int(input('Digite um numero'))
+#resultado = multiplicadores  * multiplicador
 
 for i in range(1, 11):
   resultado = multiplicador * i
-  print(f'A multiplicação de {multiplicador} x {i:2} = {resultado}')
+  print(f'A multiplicação de {multiplicador} x {i} = {resultado}')
